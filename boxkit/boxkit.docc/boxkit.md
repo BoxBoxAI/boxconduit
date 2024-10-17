@@ -1,10 +1,11 @@
-# ``boxkit``
+# boxkit
 
-<!--@START_MENU_TOKEN@-->Summary<!--@END_MENU_TOKEN@-->
+This framework is for BoxBox Ai, it contains all necessary information to interact with the boxboxai backend.
 
 ## Overview
 
-<!--@START_MENU_TOKEN@-->Text<!--@END_MENU_TOKEN@-->
+This app will communicate with our backend which is a flask app running on an ec2 instance.
+The form of communication is through RestAPI 
 
 ## Topics
 

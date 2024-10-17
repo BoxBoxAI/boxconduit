@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		90A20A5C2CC0EB3000F9C2E8 /* boxkit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90A20A512CC0EB3000F9C2E8 /* boxkit.framework */; };
+		90A20A5C2CC0EB3000F9C2E8 /* BoxConduitkit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90A20A512CC0EB3000F9C2E8 /* BoxConduitkit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -21,8 +21,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		90A20A512CC0EB3000F9C2E8 /* boxkit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = boxkit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		90A20A5B2CC0EB3000F9C2E8 /* boxkitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = boxkitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		90A20A512CC0EB3000F9C2E8 /* BoxConduitkit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BoxConduitkit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		90A20A5B2CC0EB3000F9C2E8 /* BoxConduitkitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoxConduitkitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -31,7 +31,7 @@
 			publicHeaders = (
 				boxkit.h,
 			);
-			target = 90A20A502CC0EB3000F9C2E8 /* boxkit */;
+			target = 90A20A502CC0EB3000F9C2E8 /* BoxConduitkit */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
@@ -52,7 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90A20A5C2CC0EB3000F9C2E8 /* boxkit.framework in Frameworks */,
+				90A20A5C2CC0EB3000F9C2E8 /* BoxConduitkit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,8 +71,8 @@
 		90A20A522CC0EB3000F9C2E8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				90A20A512CC0EB3000F9C2E8 /* boxkit.framework */,
-				90A20A5B2CC0EB3000F9C2E8 /* boxkitTests.xctest */,
+				90A20A512CC0EB3000F9C2E8 /* BoxConduitkit.framework */,
+				90A20A5B2CC0EB3000F9C2E8 /* BoxConduitkitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -90,9 +90,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		90A20A502CC0EB3000F9C2E8 /* boxkit */ = {
+		90A20A502CC0EB3000F9C2E8 /* BoxConduitkit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 90A20A642CC0EB3000F9C2E8 /* Build configuration list for PBXNativeTarget "boxkit" */;
+			buildConfigurationList = 90A20A642CC0EB3000F9C2E8 /* Build configuration list for PBXNativeTarget "BoxConduitkit" */;
 			buildPhases = (
 				90A20A4C2CC0EB3000F9C2E8 /* Headers */,
 				90A20A4D2CC0EB3000F9C2E8 /* Sources */,
@@ -106,16 +106,16 @@
 			fileSystemSynchronizedGroups = (
 				90A20A532CC0EB3000F9C2E8 /* boxkit */,
 			);
-			name = boxkit;
+			name = BoxConduitkit;
 			packageProductDependencies = (
 			);
 			productName = boxkit;
-			productReference = 90A20A512CC0EB3000F9C2E8 /* boxkit.framework */;
+			productReference = 90A20A512CC0EB3000F9C2E8 /* BoxConduitkit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		90A20A5A2CC0EB3000F9C2E8 /* boxkitTests */ = {
+		90A20A5A2CC0EB3000F9C2E8 /* BoxConduitkitTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 90A20A692CC0EB3000F9C2E8 /* Build configuration list for PBXNativeTarget "boxkitTests" */;
+			buildConfigurationList = 90A20A692CC0EB3000F9C2E8 /* Build configuration list for PBXNativeTarget "BoxConduitkitTests" */;
 			buildPhases = (
 				90A20A572CC0EB3000F9C2E8 /* Sources */,
 				90A20A582CC0EB3000F9C2E8 /* Frameworks */,
@@ -129,11 +129,11 @@
 			fileSystemSynchronizedGroups = (
 				90A20A5F2CC0EB3000F9C2E8 /* boxkitTests */,
 			);
-			name = boxkitTests;
+			name = BoxConduitkitTests;
 			packageProductDependencies = (
 			);
 			productName = boxkitTests;
-			productReference = 90A20A5B2CC0EB3000F9C2E8 /* boxkitTests.xctest */;
+			productReference = 90A20A5B2CC0EB3000F9C2E8 /* BoxConduitkitTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -154,7 +154,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 90A20A4B2CC0EB3000F9C2E8 /* Build configuration list for PBXProject "boxkit" */;
+			buildConfigurationList = 90A20A4B2CC0EB3000F9C2E8 /* Build configuration list for PBXProject "BoxConduit" */;
 			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -167,8 +167,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				90A20A502CC0EB3000F9C2E8 /* boxkit */,
-				90A20A5A2CC0EB3000F9C2E8 /* boxkitTests */,
+				90A20A502CC0EB3000F9C2E8 /* BoxConduitkit */,
+				90A20A5A2CC0EB3000F9C2E8 /* BoxConduitkitTests */,
 			);
 		};
 /* End PBXProject section */
@@ -210,7 +210,7 @@
 /* Begin PBXTargetDependency section */
 		90A20A5E2CC0EB3000F9C2E8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 90A20A502CC0EB3000F9C2E8 /* boxkit */;
+			target = 90A20A502CC0EB3000F9C2E8 /* BoxConduitkit */;
 			targetProxy = 90A20A5D2CC0EB3000F9C2E8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -444,7 +444,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		90A20A4B2CC0EB3000F9C2E8 /* Build configuration list for PBXProject "boxkit" */ = {
+		90A20A4B2CC0EB3000F9C2E8 /* Build configuration list for PBXProject "BoxConduit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				90A20A672CC0EB3000F9C2E8 /* Debug */,
@@ -453,7 +453,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		90A20A642CC0EB3000F9C2E8 /* Build configuration list for PBXNativeTarget "boxkit" */ = {
+		90A20A642CC0EB3000F9C2E8 /* Build configuration list for PBXNativeTarget "BoxConduitkit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				90A20A652CC0EB3000F9C2E8 /* Debug */,
@@ -462,7 +462,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		90A20A692CC0EB3000F9C2E8 /* Build configuration list for PBXNativeTarget "boxkitTests" */ = {
+		90A20A692CC0EB3000F9C2E8 /* Build configuration list for PBXNativeTarget "BoxConduitkitTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				90A20A6A2CC0EB3000F9C2E8 /* Debug */,
